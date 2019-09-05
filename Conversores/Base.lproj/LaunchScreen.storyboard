@@ -18,12 +18,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="eiB-Bs-2Xd">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="eiB-Bs-2Xd">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eiB-Bs-2Xd" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Ew3-fa-VaM"/>
+                            <constraint firstItem="eiB-Bs-2Xd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KMc-u0-TTb"/>
+                            <constraint firstItem="eiB-Bs-2Xd" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Vvd-u5-lM0"/>
+                            <constraint firstItem="eiB-Bs-2Xd" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="rcj-Ul-gH7"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
